@@ -1,4 +1,4 @@
-package design;
+package com.testes.logica.brasilprev.application.design;
 
 public class SemCalculo extends Calculo {
 

@@ -5,25 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="12edcbc2-7da8-49d8-a552-fd8e13a1b889" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/application/VerificarCondicoes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/design/CalcularPorCinco.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/design/CalcularPorTres.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/design/CalcularPorTresECinco.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/design/Calculo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/design/SemCalculo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/application/VerificarCondicoesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/src/main/java/com/testes/logica/brasilprev/application/design/EfetuarCalculos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/src/test/java/com/testes/logica/brasilprev/application/UseCaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/application/VerificarCondicoes.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/java/com/testes/logica/brasilprev/application/UseCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/design/CalcularPorCinco.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/java/com/testes/logica/brasilprev/application/design/CalcularPorCinco.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/design/CalcularPorTres.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/java/com/testes/logica/brasilprev/application/design/CalcularPorTres.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/design/CalcularPorTresECinco.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/java/com/testes/logica/brasilprev/application/design/CalcularPorTresECinco.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/design/Calculo.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/java/com/testes/logica/brasilprev/application/design/Calculo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/design/SemCalculo.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/java/com/testes/logica/brasilprev/application/design/SemCalculo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/application/VerificarCondicoesTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +41,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit4 Test Class" />
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -71,8 +64,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "dart.analysis.tool.window.visible": "false",
     "jdk.selected.JAVA_MODULE": "17",
     "project.structure.last.edited": "Modules",
@@ -86,31 +81,14 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.testes.logica.brasilprev.application" />
       <recent name="com.testes.logica.application" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.testes.logica.brasilprev.application" />
+    </key>
   </component>
-  <component name="RunManager" selected="Gradle.VerificarCondicoesTest (1)">
-    <configuration name="Tests in 'testes'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Gradle.UseCaseTest.execute">
     <configuration name="Tests in 'testes.application.test'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -123,6 +101,52 @@
         <option name="taskNames">
           <list>
             <option value=":application:test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="UseCaseTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":application:test" />
+            <option value="--tests" />
+            <option value="&quot;com.testes.logica.brasilprev.application.UseCaseTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="UseCaseTest.execute" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":application:test" />
+            <option value="--tests" />
+            <option value="&quot;com.testes.logica.brasilprev.application.UseCaseTest.execute&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -178,36 +202,13 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="VerificarCondicoesTest.verificarCondicoesFizzBuzz" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":application:test" />
-            <option value="--tests" />
-            <option value="&quot;com.testes.logica.application.VerificarCondicoesTest.verificarCondicoesFizzBuzz&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.UseCaseTest.execute" />
+        <item itemvalue="Gradle.UseCaseTest" />
         <item itemvalue="Gradle.VerificarCondicoesTest (1)" />
         <item itemvalue="Gradle.VerificarCondicoesTest.verificarCondicoesFizzBuzz (1)" />
         <item itemvalue="Gradle.Tests in 'testes.application.test'" />
-        <item itemvalue="Gradle.Tests in 'testes'" />
-        <item itemvalue="Gradle.VerificarCondicoesTest.verificarCondicoesFizzBuzz" />
       </list>
     </recent_temporary>
   </component>

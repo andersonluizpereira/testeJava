@@ -1,9 +1,10 @@
-package design;
+package com.testes.logica.brasilprev.application.design;
 
 public class CalcularPorCinco extends Calculo {
 
     public static final int CINCO = 5;
     public static final int ZERO = 0;
+    public static final String TEXTO = "Prev";
 
     public CalcularPorCinco(Calculo proximo) {
         super(proximo);
@@ -12,7 +13,7 @@ public class CalcularPorCinco extends Calculo {
     @Override
     public String calcular(int numero) {
         if (numero % CINCO == ZERO) {
-            return "Buzz";
+            return TEXTO;
         }
         return proximo.calcular(numero);
     }
